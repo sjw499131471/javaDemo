@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<crazyit:bookList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:crazyit="http://www.crazyit.org/schema"
+	xsi:schemaLocation="http://www.crazyit.org/schema book.xsd">
+	<crazyit:computer_book>
+		<crazyit:book_name>疯狂Java讲义</crazyit:book_name>
+		<crazyit:book_price>99.00</crazyit:book_price>
+	</crazyit:computer_book>
+</crazyit:bookList>

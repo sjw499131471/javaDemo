@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.crazyit.org/schema"
+	xmlns="http://www.crazyit.org/schema">
+	<xs:element name="bookList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="computer_book"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>	
+	<xs:element name="computer_book">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="book_price"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="book_price" type="xs:decimal"/>
+</xs:schema>

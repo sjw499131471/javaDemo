@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!ELEMENT computer_book ((book_name, book_price))>
+<!ELEMENT book_price (#PCDATA)>
+<!-- 下面定义了2个符号 -->
+<!NOTATION wmv SYSTEM "video/x-ms-wmv">
+<!NOTATION pdf PUBLIC "PDF" "e:/tools/Foxit Reader.exe">
+<!-- 只有外部实体才能是未解析实体 -->
+<!ENTITY movie SYSTEM "http://www.crazyit.org/test.wmv" NDATA wmv>

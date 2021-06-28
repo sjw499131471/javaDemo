@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE bookList SYSTEM 
+"book.dtd"
+[
+<!ELEMENT bookList (computer_book)*>
+<!ELEMENT book_name (#PCDATA)>
+<!ATTLIST computer_book intro-moive ENTITIES #IMPLIED>
+]>
+<?crazyit web-site="http://www.crazyit.org"?>
+<bookList>
+	<computer_book intro-moive="movie">
+		<book_name>Java详解</book_name>
+		<book_price>99.00</book_price>
+	</computer_book>
+</bookList>
